@@ -1,0 +1,130 @@
+
+body{
+    background-color: antiquewhite;
+}
+#logo{
+    width:20.5% ;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(4, 133, 246);
+
+
+}
+#banner{
+    width: 79% ;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    background-color: chocolate;
+    
+
+}
+
+#bar{
+    width:100% ;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    margin-top:10px ;
+    background-color: aliceblue;
+
+
+}
+
+#left{
+    width:20.5% ;
+    height: 500px;
+    border: 1px solid black;
+    text-align: center; 
+    float: left;
+    background-color: rgb(209, 180, 237);
+    box-sizing: border-box;
+    margin-top: 20px;
+
+
+
+}
+#center{
+    width: 59% ;
+    height: 500px;
+    border: 1px solid black;
+    text-align: center; 
+    float: left;
+    background-color: rgb(160, 160, 249);
+    box-sizing: border-box;
+    margin-top: 20px;
+
+
+}
+
+#centertop{
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    text-align:center;
+    float: left;
+    background-color:beige ;
+/* box-sizing: border-box; */
+}
+#mid1{
+    width: 50%;
+    height: 150px;
+    border: 1px solid black;
+    text-align:center;
+    clear: both;
+    display:inline-block ;
+    background-color: azure;
+    box-sizing: border-box;
+
+}
+#mid2{
+    width:49.5% ;
+    height: 150px;
+    border: 1px solid black;
+    text-align:center;
+   clear: both;
+   display:inline-block ;
+   background-color: aquamarine;
+   box-sizing: border-box;
+
+}
+#bottom{
+    width:100%;
+    height: 150px;
+    border: 1px solid black;
+    float: left;    
+    background-color: aqua;
+    box-sizing: border-box;
+
+   
+
+}
+
+
+#right{
+    width:20.5%;
+    height: 500px;
+    border: 1px solid black;
+    text-align: center; 
+    float: right;
+    margin-top: 20px;
+    background-color: rgba(23, 240, 7, 0.447);
+    box-sizing: border-box;
+
+}
+
+#footer{
+    width:100% ;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    clear: both;
+    background-color: aliceblue;
+
+}
+#logo:hover,#banner:hover,#bar:hover,#left:hover,#centertop:hover,#mid1:hover,#mid2:hover,#bottom:hover,#right:hover,#footer:hover{
+    background-color: tomato;
+}
